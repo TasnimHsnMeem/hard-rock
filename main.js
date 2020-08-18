@@ -1,6 +1,7 @@
 function findSongs() {
 
-    let parent = document.getElementById("parent");
+ 
+   let parent = document.getElementById("parent");
     parent.style.display = "none";
     document.getElementById("lyrics").innerHTML = "";
     let child = document.getElementsByClassName("child");
@@ -64,9 +65,6 @@ function findSongs() {
 
 
 }
-
-
-
 
 
 function findlyric(evt) {
